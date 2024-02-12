@@ -33,3 +33,4 @@ mpf.plot(BAC_df,type='candle', volume=True, title='Bank Of America Stocks Januar
 
 BAC_Nov = BAC_df['2023-11-01':'2023-11-30']
 mpf.plot(BAC_Nov,type='candle', volume=True, title='Bank Of America Stocks - November 2023', figsize=(10, 6))
+
